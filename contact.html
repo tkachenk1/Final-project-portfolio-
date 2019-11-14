@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>portfolio</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+		<header>
+            <div class="content-section">
+                <a href="index.html" class="logo-link">
+                    <div class="logo-composite">
+                        <img src="img/banner.png" alt="My banner" class="logo-image"
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <nav>
+              <a href="index.html" class="nav-link">Home</a>
+              <a href="projects.html" class="nav-link">Projects</a>
+              <a href="contact.html" class="nav-link">Contact Me</a>
+              <a href="extras.html" class="nav-link"><abbr title="Citations and other project links">Citations</abbr></a>
+            </nav>
+        </header>
+        <main class="content-section">
+            <h2>Contact Me!</h2>
+            <p>Please, leave me your message here:</p>
+             <form class="payment-form" action="checkout_success.html">
+
+                <div class="payment-method-block">
+                    <label class="input-label">
+                        <span>First Name</span>
+                        <input required type="text" name="card-num" class="input-field payment-input" placeholder="First name">
+                    </label>
+                </div>
+                <div class="payment-method-block">
+                    <label class="input-label">
+                        <span>Last Name</span>
+                        <input required type="text" name="card-num" class="input-field payment-input" placeholder="Last name">
+                    </label>
+                </div>
+
+                <div class="payment-method-block">
+                <label class="input-label">
+                  <span>Message</span>
+                  <textarea id="message" name="message" placeholder="Put your text here" style="height:170p"></textarea>
+                 </label>
+            </div>
+                <button type="submit" href="contuct_success.html">Pay</button>
+            </form>
+
+        </main>
+    </body>
+</html>
