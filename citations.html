@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>portfolio</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/final.css" rel="stylesheet">
+
+    </head>
+    <body>
+      <header>
+        <div class="nav-content-section">
+          <a href="index.html" class="nav-logo">Victoria Tkachenko</a>
+  			      <nav>
+                <ul>
+                  <li><a href="index.html" class="nav-link">About Me</a></li>
+                  <li><a href="projects.html" class="nav-link">Projects</a></li>
+                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li><a href="citations.html" class="nav-link" id="nav-link-citation">Citations</a></li>
+                </ul>
+              </nav>
+          </div>
+  		</header>
+
+      <section id="citations">
+          <h2>Citations</h2>
+
+          <ul>
+              <li>
+                  W3 <strong>HTML5 Entity Reference</strong>. Retrieved from <a href="https://dev.w3.org/html5/html-author/charref">https://dev.w3.org/html5/html-author/charref</a>
+              </li>
+              <li>
+                  Images courtesy of Google Images<a rel="noreferrer nofollow" href="https://www.gourmetcoffees.com"></a>
+              </li>
+          </ul>
+      </section>
+
+      <h2>Style Guide</h2>
+      <section id="colors">
+          <h4>Colour Palette</h4>
+          <!-- Swatches - Primary -->
+          <div class="swatch-row">
+              <div class="swatch-group">
+                  <div class="swatch swatch--primary"></div>
+                  <p class="swatch-label">
+                      #201a1c <br>
+                      Primary
+                  </p>
+              </div>
+              <div class="swatch-group">
+                  <div class="swatch swatch--primary-light"></div>
+                  <p class="swatch-label">
+                      #c88770 <br>
+                      --Light
+                  </p>
+              </div>
+              <div class="swatch-group">
+                  <div class="swatch swatch--primary-dark"></div>
+                  <p class="swatch-label">
+                      #523217 <br>
+                      --Dark
+                  </p>
+              </div>
+          </div>
+          <!-- Swatches - Secondary -->
+          <div class="swatch-row">
+              <div class="swatch-group">
+                  <div class="swatch swatch--secondary"></div>
+                  <p class="swatch-label">
+                      #5d432c <br>
+                      Secondary
+                  </p>
+              </div>
+              <div class="swatch-group">
+                  <div class="swatch swatch--secondary-light"></div>
+                  <p class="swatch-label">
+                      #cbab7f<br>
+                      --Light
+                  </p>
+              </div>
+              <div class="swatch-group">
+                  <div class="swatch swatch--secondary-dark"></div>
+                  <p class="swatch-label">
+                      #2A553C <br>
+                      --Dark
+                  </p>
+              </div>
+          </div>
+          <!-- Swatches - Accent -->
+          <div class="swatch-row">
+              <div class="swatch-group">
+                  <div class="swatch swatch--accent"></div>
+                  <p class="swatch-label">
+                      #f5eee9 <br>
+                      Background
+                  </p>
+              </div>
+              <div class="swatch-group">
+                  <div class="swatch swatch--accent-light"></div>
+                  <p class="swatch-label">
+                      #604489 <br>
+                      --Light
+                  </p>
+              </div>
+              <div class="swatch-group">
+                  <div class="swatch swatch--accent-dark"></div>
+                  <p class="swatch-label">
+                      #3C2A55 <br>
+                      --Dark
+                  </p>
+              </div>
+          </div>
+      </section>
+      <!-- Website - Fontbook -->
+      <section id="fonts">
+          <h4>Fontbook</h4>
+          <ul class="font-list">
+              <li class="font-primary">
+                  Primary: Rasa-Light (source: <a href="https://fonts.google.com/specimen/Rasa">Google Fonts</a>)
+              </li>
+              <li class="font-secondary">
+                  Secondary: Barlow (source: <a href="https://fonts.google.com/specimen/Barlow">Google Fonts</a>)
+              </li>
+              <li>
+                  Flare: <span class="font-flare">Headache</span> (source: <a href="https://designalot.net/headache-font/">Author</a>)
+              </li>
+          </ul>
+      </section>
+      <!-- // Website-Fontbook -->
+      <hr>
+
+      <!-- HOME SECTION / INTERACTIVE ELEMENTS SECTION // -->
+      <section id="home">
+          <h2>Home</h2>
+
+          <section class="element">
+              <h3>In-text link</h3>
+
+              <h4>CSS selector:</h4>
+              <p>.text-link</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;a href="#" class="text-link"&gt;Text Link&lt;/a&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <a href="#" class="text-link">Text Link</a>
+          </section>
+
+
+          <!-- Default Button styling section -->
+          <section class="element">
+              <h3>Button Link</h3>
+
+              <h4>CSS selector:</h4>
+              <p>.button-nav</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <a class="button-nav" href="#">Default Button</a>
+          </section>
+
+          <section class="element">
+              <h3>Submit Button</h3>
+
+              <h4>CSS selector:</h4>
+              <p>button[type="submit"]</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <button type="submit">Submit</button>
+          </section>
+
+          <section class="element">
+              <h3>Reset Button</h3>
+
+              <h4>CSS selector:</h4>
+              <p>button[type="reset"]</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;button type="reset"&gt;Reset&lt;/button&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <button type="reset">Reset</button>
+          </section>
+
+          <section class="element">
+              <h3>Text Input Field with Label</h3>
+
+              <h4>CSS selector:</h4>
+              <p>.input-label for label and .input-field for the input</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;label class="input-label"&gt; <br>
+                      &emsp13;Label here <br>
+                      &emsp13;&lt;input type="text" name="demo-text" class="input-field"&gt; <br>
+                  &lt;/label&gt;<br>
+              </code>
+
+              <h4>Rendered element:</h4>
+              <label class="input-label">
+                  Label here
+                  <input id="demo-text-input" type="text" name="demo-text" class="input-field">
+              </label>
+          </section>
+
+
+          <section class="element">
+              <h3>Radio Button with Label</h3>
+
+              <h4>CSS selector:</h4>
+              <p>.input-label for label and .input-radio for the input</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;label for="demo-radio-input" class="input-label"&gt;Label here&lt;/label&gt;<br>
+                  &lt;input id="demo-radio-input" type="radio" name="demo-radio" class="input-field"&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <div class="radio-item">
+                  <label for="demo-radio-input" class="input-label">Label here</label>
+                  <input id="demo-radio-input" type="radio" name="demo-radio" class="input-field">
+              </div>
+              <div class="radio-item">
+                  <label for="demo-radio-input-2" class="input-label">Another here</label>
+                  <input id="demo-radio-input-2" type="radio" name="demo-radio" class="input-field">
+              </div>
+          </section>
+
+
+          <section class="element">
+              <h3>Image as a Link</h3>
+
+              <h4>CSS selector:</h4>
+              <p>.img-link for block/link and .img-link__img for the image</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;a href="#" class="img-link"&gt;<br>
+                      &emsp13; &lt;img src="img/robot.jpg" alt="Supposed to be a robot picture" class="img-link__img"&gt;<br>
+                  &lt;/a&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <a href="#" class="img-link">
+                  <img src="img/robot.jpg" alt="Supposed to be a robot picture" class="img-link__img" width="150">
+              </a>
+          </section>
+      </section>
+      <!-- //  HOME / INTERACTIVE ELEMENTS SECTION -->
+
+
+      <!-- CONTACT US  / TEXT ELEMENTS SECTION // -->
+      <section id="contuct_us">
+          <h2>Contact Us</h2>
+
+          <section class="element">
+
+              <h3>Headings</h3>
+              <hr>
+              <!-- h2 -->
+              <h3>Heading 2</h3>
+
+              <h4>CSS selector:</h4>
+              <p>h2</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;h2&gt;Heading 2&lt;/h2&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <h2>Heading 2</h2>
+              <hr>
+              <!-- h3 -->
+              <h3>Heading 3</h3>
+
+              <h4>CSS selector:</h4>
+              <p>h3</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;h3&gt;Heading 3&lt;/h3&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <h3>Heading 3</h3>
+              <hr>
+              <!-- h4 -->
+              <h3>Heading 4</h3>
+
+              <h4>CSS selector:</h4>
+              <p>h4</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;h4&gt;Heading 4&lt;/h4&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <h4>Heading 4</h4>
+              <hr>
+              <!-- h5 -->
+              <h3>Heading 5</h3>
+
+              <h4>CSS selector:</h4>
+              <p>h5</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;h5&gt;Heading 4&lt;/h5&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <h5>Heading 5</h5>
+          </section>
+
+          <section class="element">
+              <h3>Paragraphs</h3>
+
+              <h4>CSS selector:</h4>
+              <p>p</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;p&gt;<br>
+                      &emsp13; Lorem ipsum ...<br>
+                  &lt;/p&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+          </section>
+
+          <section class="element">
+              <h3>Numbered Lists</h3>
+
+              <h4>CSS selector:</h4>
+              <p>ol for the list and li for items</p>
+
+              <h4>Sample code:</h4>
+              <code>
+                  &lt;ol&gt;<br>
+                      &emsp13; &lt;li&gt;Item 1&lt;/li&gt;<br>
+                      &emsp13; &lt;li&gt;Item 2&lt;/li&gt;<br>
+                      &emsp13; &lt;li&gt;Item 3&lt;/li&gt;<br>
+                  &lt;/ol&gt;
+              </code>
+
+              <h4>Rendered element:</h4>
+              <ol>
+                  <li>Item 1</li>
+                  <li>Item 2</li>
+                  <li>Item 3</li>
+              </ol>
+          </section>
+      </section>
+      <!-- // CONTACT US /TEXT ELEMENTS SECTION -->
+
+      <footer>
+        <a href="citations.html" class="nav-link" id="nav-link-citation-footer">Citations</a>
+     </footer>
+
+	</body>
+</html>
