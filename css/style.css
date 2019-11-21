@@ -1,6 +1,5 @@
 /*
   Project 3 STYLING
-  Default styling for the style guide
 */
 
 */
@@ -19,7 +18,7 @@
 :root {
     --color-primary: #201a1c;
     --color-primary-light: #a55a83;
-    --color-primary-dark: #523217;
+    --color-primary-dark: #A55A5D;
 
     --color-secondary: #5d432c;
     --color-secondary-light: #a55a83;
@@ -39,6 +38,7 @@
 }
 
 /* Swatches */
+
 .swatch-group {
     position: relative;
     display: inline-block;
@@ -112,8 +112,6 @@
 .swatch--grey-silver {
     background: var(--color-grey-silver);
 }
-
-/*  */
 
 
 body {
@@ -560,9 +558,9 @@ section h2:first-of-type {
 
 .product-col {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 33.3333%;
-    -ms-flex: 0 0 33.3333%;
-    flex: 0 0 33.3333%;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
     padding-left: 15px;
     padding-right: 15px;
 
@@ -711,9 +709,9 @@ section h2:first-of-type {
 @media (min-width: 835px) {
     .content-home-image {
         -webkit-box-flex: 0;
-        -webkit-flex: 0 0 65%;
-        -ms-flex: 0 0 65%;
-        flex: 0 0 65%;
+        -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
     }
 }
 
