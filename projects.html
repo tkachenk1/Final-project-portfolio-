@@ -4,57 +4,34 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>portfolio</title>
-        <link href="css/style.css" rel="stylesheet">
+
         <link href="css/sections.css" rel="stylesheet">
+        <link href="css/final.css" rel="stylesheet">
     </head>
     <body>
-		<header>
-            <div class="content-section">
-                <a href="index.html" class="logo-link">
-                    <div class="logo-composite">
-                        <img src="img/banner.png" alt="My banner" class="logo-image"
-                    </div>
-                </a>
-            </div>
-            <hr>
-            <nav>
-              <a href="index.html" class="nav-link">Home</a>
-              <a href="projects.html" class="nav-link">Projects</a>
-              <a href="contact.html" class="nav-link">Contact Me</a>
-              <a href="extras.html" class="nav-link"><abbr title="Citations and other project links">Citations</abbr></a>
-            </nav>
-        </header>
-        <main class="content-section">
-            <h2>Projects</h2>
-            <section class="product-container">
-                <div class="product-col">
-                    <a href="product-1.html" class="product-link img-link">
-                        <figure class="product-item">
-                            <img src="img/chair1.png" alt="Chair">
-                            <figcaption class="product-item__description">
-                                <h4 class="product-item__name">Project 1</h4>
-                                <p class="product-item__price">This chair in not a chair</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="product-col">
-                    <a href="product-1.html" class="product-link img-link">
-                        <figure class="product-item">
-                            <img src="img/candelabra1.png" alt="Candelabra">
-                            <figcaption class="product-item__description">
-                                <h4 class="product-item__name">Project 2</h4>
-                                <p class="product-item__price">Candelabra modeling</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
+      <header>
+        <div class="nav-content-section">
+          <a href="index.html" class="nav-logo">Victoria Tkachenko</a>
+              <nav>
+                <ul>
+                  <li><a href="index.html" class="nav-link">About Me</a></li>
+                  <li><a href="projects.html" class="nav-link">Projects</a></li>
+                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li><a href="citations.html" class="nav-link" id="nav-link-citation">Citations</a></li>
+                </ul>
+              </nav>
+          </div>
+      </header>
 
-                <div class="wrapper">
-   <article class="bio-info">
+  <section id="bio" class="content-section">
+   <div class="img-composite">
+       <img class="img-composite-description" src="img/chair1.png" alt="My Photo (maybe)">
+     </div>
+
+     <div class="project-composite">
      <h2>This Chair is Not a Chair</h2>
 
-<p><b>The Problem</b><br>
+<p><b>Overview</b><br>
   The aim of this group project is to plan a parametric sitting surface applying rapid sketching for a quick prototyping of ideas, further developed by CAD tools supporting surface and solid modeling.</p>
 
 
@@ -77,31 +54,28 @@ The overall design of the chair was graded as a good model. However, the only pr
   <p><b>Solutions</b><br>
 There are three main steps used to create the solution to this problem: sketching, digital modeling and physical modeling.</p>
 
-       </article>
-       <img class="img-me" src="img/chair1.png" alt="My Photo (maybe)">
+ </div>
+</section>
+
+
+<br>
+
+  <section id="bio" class="content-section">
+    <div class="img-composite">
+      <img class="img-composite-description" src="img/candelabra1.png" alt="My Photo (maybe)">
     </div>
-
-<div class="wrapper">
-  <article class="bio-info">
+    <div class="project-composite">
    <h2>Candelabra Modeling</h2>
-
-   <p><b>Overview:</b><br>
+    <p><b>Overview:</b><br>
      The goal of this project is to create two photo-realistic renders of the same 3D virtual environment and one main object occupying the scene. To accomplish this task I had to
      combine techniques of modeling, texturing, and lighting in a software called Maya.
-
-
-
-   <p><b>The description of the achieved environment:</b><br>
+    <p><b>The description of the achieved environment:</b><br>
 TProject “Photo-realism”  features a candelabra standing in the middle of a dinner table in a summer house, during the late afternoon. The scene setting is occuring in an indoor environment and features a vibrant natural white light in conjunction with a faint indoor light. </p>
-
-
-  </article>
-  <img class="img-me" src="img/candelabra1.png" alt="My Photo (maybe)">
 </div>
+</section>
 
-
-
-            </section>
-        </main>
+        <footer>
+          <a href="citations.html" class="nav-link" id="nav-link-citation-footer">Citations</a>
+       </footer>
     </body>
 </html>
